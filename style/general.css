@@ -1,0 +1,37 @@
+.title-div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.title-hidden{
+    opacity:0;
+    filter:blur(5px);
+    transform:translateX(-100%);
+    transition:all 2s;
+    font-family:  'Alegreya', serif;
+    color:#424874;
+    font-weight:800;
+    font-size:5rem;
+    
+}
+.title-show{
+    opacity:1;
+    filter:blur(0);
+    transform: translateX(0);
+}
+.enquire-div{
+    margin-top:22px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.enquiry-link{
+    width:50px;
+    padding:10px 20px 10px 20px;
+    border-radius:2em;
+    background-color:#424874;
+    color:aliceblue;
+    margin-bottom:122px;
+
+}
